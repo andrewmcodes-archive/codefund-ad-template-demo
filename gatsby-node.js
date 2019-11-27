@@ -7,7 +7,6 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             id
             frontmatter {
               path
-              image
             }
           }
         }

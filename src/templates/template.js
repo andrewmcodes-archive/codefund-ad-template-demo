@@ -43,7 +43,6 @@ export const query = graphql`
     template: markdownRemark(id: { eq: $id }) {
       frontmatter {
         path
-        image
         title
         ad_template
         placement
