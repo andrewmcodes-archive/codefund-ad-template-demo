@@ -33,7 +33,7 @@ const Template = ({ data }) => {
       </div>
       {placement === "not-inline" && <div id="codefund"></div>}
       <Helmet>
-        <script src={ad_url}></script>
+        <script rel="preconnect" src={ad_url} async="async"></script>
       </Helmet>
     </Layout>
   );
