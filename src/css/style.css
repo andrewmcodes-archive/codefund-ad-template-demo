@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.-translate-1 {
+  transform: translateY(-1px);
+}
+
+.hover\:-translate-1:hover {
+  transform: translateY(-1px);
+}
+
+.translate-1 {
+  transform: translateY(1px);
+}
+
+.hover\:translate-1:hover {
+  transform: translateY(1px);
+}
+
+.skew-y-5 {
+  -webkit-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
+
+.-skew-y-5 {
+  -webkit-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+}
+
+.template-skew:hover {
+  -webkit-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  @apply shadow-lg;
+}
